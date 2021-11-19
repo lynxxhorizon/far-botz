@@ -1,0 +1,1 @@
+worker: npm i rumus-bdr && npm i fastify-warning && node index
