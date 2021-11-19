@@ -77,7 +77,7 @@ return {key:{ fromMe:false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remo
 //━━━━━━━━━━━━━━━[END FAKE REPLY]━━━━━━━━━━━━━━━━━//
 if (!isRegist && isCmd && !command.includes('regist')) {
     let buttons = [
-  {buttonId: '/regist', buttonText: {displayText: '➤REGISTER'}, type: 1}
+  {buttonId: '/regist', buttonText: {displayText: '➤ REGISTER'}, type: 1}
 ]
 const buttonsMessage = {
     contentText: `*- NOT VERIFIED -*\n\nSorry @${m.sender.split('@')[0]},\n You are not Registered as a User BOTz`.trim(),    
@@ -108,8 +108,6 @@ I Developed by:
 🌹: DEVELOPER MEDIA SOCIAL
 -> Instagram: bit.ly/FAInstagrams
 -> Whatsapp: wa.me/6285807231447
--> Website: https://farrell-id.github.io/farrellatharr
--> 2nd Web: https://farrell-id.github.io/farrellweb
 
 --------------------------------------------------------
 
